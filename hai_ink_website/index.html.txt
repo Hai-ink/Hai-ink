@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hai Ink - Tattoo Studio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+    }
+    header img {
+      width: 180px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .motto {
+      font-style: italic;
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    section {
+      padding: 20px;
+    }
+    .about {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .about p {
+      line-height: 1.6;
+      color: #ccc;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      border: 2px solid #555;
+    }
+    .contact {
+      background-color: #222;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact a {
+      color: #66ffcc;
+      text-decoration: none;
+    }
+    .contact p {
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="hai-ink-logo.png" alt="Hai Ink Logo" />
+    <h1>Hai Ink Tattoo Studio</h1>
+    <p class="motto">Ink with serenity</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      My name is Hai, and I'm a passionate tattoo artist based in Auchi. I specialize in clean, detailed linework and bold custom designs. 
+      Tattooing isn't just my profession—it's my form of storytelling. I believe that every tattoo should reflect the personality, struggles, and triumphs of the person wearing it. 
+      Whether you're getting your first piece or adding to your collection, I’m here to bring your vision to life with precision and heart.
+    </p>
+    <p style="margin-top:20px; font-style: italic; color: #aaa;">
+      A good tattoo artist is more than just skilled with ink — they are patient, creative, and deeply respectful of the stories their clients carry. 
+      Every line and shade should speak purpose, passion, and pride.
+    </p>
+  </section>
+
+  <section class="gallery">
+    <h2 style="text-align: center;">My Work</h2>
+    <img src="tattoo1.jpeg" alt="Tattoo 1" />
+    <img src="tattoo2.jpeg" alt="Tattoo 2" />
+    <img src="tattoo3.jpeg" alt="Tattoo 3" />
+    <!-- Add more images as needed -->
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>WhatsApp: <a href="https://wa.me/2347060903704">07060903704</a></p>
+    <p>Call: 09151457877</p>
+    <p>Email: <a href="mailto:idiehohenry@gmail.com">idiehohenry@gmail.com</a></p>
+    <p>
+      <a href="https://www.instagram.com/ink.hai" target="_blank">
+        <i class="fab fa-instagram"></i> @ink.hai
+      </a>
+    </p>
+    <p>Location: Auchi, Nigeria</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Hai Ink. All rights reserved.<br>
+    CEO: Henry Armani Idieho
+  </footer>
+
+</body>
+</html>
